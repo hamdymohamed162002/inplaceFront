@@ -1,6 +1,6 @@
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 import { HumanReadableDate } from "@/lib/date";
-import { Bath, Bed, Ruler, SwatchBook, Users } from "lucide-react";
+import { Bath, Bed, Ruler, SwatchBook } from "lucide-react";
 import { Link } from "react-router-dom";
 export function OfferCard({ offer }: any) {
     return (
