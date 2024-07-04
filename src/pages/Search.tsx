@@ -10,13 +10,13 @@ export function SearchPage() {
     const [offers, setOffers] = useState<any>([])
     useEffect(() => {
         setLoading(true)
-        fetch(import.meta.env.VITE_API_URL + "/offers/search?query=" + query, {
+        fetch(https://inplace.onrender.com+"/offers/search?query=" + query, {
             headers: {
                 "Content-Type": "application/json",
             }
         }).then(res => res.json()).then(data => {
             setLoading(false)
-            setOffers(data)
+            setOffers(data) 
         }
         )
     }, [query])
