@@ -10,7 +10,7 @@ export function SearchPage() {
     const [offers, setOffers] = useState<any>([])
     useEffect(() => {
         setLoading(true)
-        fetch(https://inplace.onrender.com+"/offers/search?query=" + query, {
+        fetch("https://inplace.onrender.com"+ "/offers/search?query=" + query, {
             headers: {
                 "Content-Type": "application/json",
             }
